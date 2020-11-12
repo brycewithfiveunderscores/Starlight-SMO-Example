@@ -78,7 +78,7 @@ def getSymAddrFromMap(target, regexStr, symStr):
         loadAddrAdjustment = int(patchConfig["nso_load_addr"][target], 16)
     else:
         mapFile = SLMapFile
-        loadAddrAdjustment = int(patchConfig["nso_load_addr"]["subsdk0"], 16)
+        loadAddrAdjustment = int(patchConfig["nso_load_addr"]["subsdk1"], 16)
 
     foundPos, firstFoundAddr = getFoundPosAddr(0)
     if foundPos == -1:
