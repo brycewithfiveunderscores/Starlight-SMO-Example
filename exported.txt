@@ -1,7 +1,5 @@
 {
     global:
-        _Z6renderPN3agl11DrawContextEPN4sead10TextWriterE;
-        __custom_init;
-        __custom_fini;
+        _Z21teleportMarioIfNeededv;
     local: *;
 };
