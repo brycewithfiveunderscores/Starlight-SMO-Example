@@ -50,7 +50,7 @@ else:
     romType = sys.argv[2]
 
 if len(sys.argv) < 4:
-    version = '310'
+    version = '100'
 else:
     version = sys.argv[3]
 

@@ -197,7 +197,7 @@ def addPatchFromFile(patchFilePath):
                     break
             line = line.split('/', 1)[0].strip()
 
-            # if is patch variable line, e.g. [version=310]
+            # if is patch variable line, e.g. [version=100]
             patchVarLineMatch = re.match(r'\[(.+)\]', line)
             if patchVarLineMatch:
                 patchVarMatches = re.findall(r'(\w+)=(\w+)', patchVarLineMatch.group(1))
