@@ -3,8 +3,8 @@
 
 .PHONY: all clean starlight send
 
-S2VER ?= 310
-S2VERSTR ?= 3.1.0
+S2VER ?= 100
+S2VERSTR ?= 1.0.0
 S2ROMTYPE ?= US
 
 all: starlight

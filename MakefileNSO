@@ -1,7 +1,7 @@
 #---------------------------------------------------------------------------------
 # Starlight-specific
 # S2VER is the target version of Splatoon 2, but without the decimal points
-# This can be changed by compiling for a different version (e.g. make 310)
+# This can be changed by compiling for a different version (e.g. make 100)
 # (used for C defines, filenames, etc)
 # S2VERSTR is the target version of Splatoon 2
 # (used for user-facing stuff)
